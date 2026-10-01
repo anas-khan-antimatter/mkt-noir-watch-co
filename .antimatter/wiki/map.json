@@ -1,14 +1,14 @@
 {
-  "root": "/tmp/am-ws/c-1790870817744-tny57",
-  "name": "c-1790870817744-tny57",
-  "generatedAt": "2026-10-01T16:15:45.172Z",
-  "fileCount": 25,
-  "dirCount": 10,
+  "root": "/tmp/am-ws/c-1790874028472-mkkgg",
+  "name": "c-1790874028472-mkkgg",
+  "generatedAt": "2026-10-01T17:24:01.274Z",
+  "fileCount": 27,
+  "dirCount": 12,
   "languages": {
+    "JSON": 6,
     "Markdown": 6,
-    "JSON": 5,
     "JavaScript": 2,
-    "TypeScript": 10,
+    "TypeScript": 11,
     "CSS": 1
   },
   "keyFiles": [
@@ -17,6 +17,14 @@
     "tsconfig.json"
   ],
   "directories": [
+    {
+      "dir": ".antimatter/lanes",
+      "fileCount": 1,
+      "files": [
+        "ship.json"
+      ],
+      "symbols": []
+    },
     {
       "dir": ".antimatter/wiki",
       "fileCount": 6,
@@ -141,6 +149,14 @@
     },
     {
       "dir": "src/app/size-guide",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/strap/dial",
       "fileCount": 1,
       "files": [
         "page.tsx"
