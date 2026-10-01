@@ -1,15 +1,15 @@
 {
   "root": "/tmp/am-ws/c-1790732967552-zqjar",
   "name": "c-1790732967552-zqjar",
-  "generatedAt": "2026-10-01T04:19:59.630Z",
-  "fileCount": 17,
-  "dirCount": 3,
+  "generatedAt": "2026-10-01T15:15:40.275Z",
+  "fileCount": 21,
+  "dirCount": 7,
   "languages": {
     "Markdown": 6,
     "JSON": 4,
     "JavaScript": 2,
-    "CSS": 1,
-    "TypeScript": 3
+    "TypeScript": 7,
+    "CSS": 1
   },
   "keyFiles": [
     "package.json",
@@ -56,6 +56,67 @@
       "symbols": [
         {
           "name": "metadata",
+          "kind": "const"
+        }
+      ]
+    },
+    {
+      "dir": "src/app/collection",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/collection/[slug]",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/configure",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/lib",
+      "fileCount": 1,
+      "files": [
+        "watches.ts"
+      ],
+      "symbols": [
+        {
+          "name": "WatchComplication",
+          "kind": "interface"
+        },
+        {
+          "name": "Watch",
+          "kind": "interface"
+        },
+        {
+          "name": "watches",
+          "kind": "const"
+        },
+        {
+          "name": "caseOptions",
+          "kind": "const"
+        },
+        {
+          "name": "strapOptions",
+          "kind": "const"
+        },
+        {
+          "name": "dialOptions",
+          "kind": "const"
+        },
+        {
+          "name": "basePrice",
           "kind": "const"
         }
       ]

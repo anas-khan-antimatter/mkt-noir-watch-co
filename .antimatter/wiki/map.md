@@ -1,11 +1,11 @@
 # Workspace Map — c-1790732967552-zqjar
-_Generated 2026-10-01 · 17 files · 3 directories_  
+_Generated 2026-10-01 · 21 files · 7 directories_  
 _Deterministic structural map. Regenerate with the `map` tool or "Antimatter: Map Workspace". Do not hand-edit._
 
 ## Languages
+- TypeScript: 7
 - Markdown: 6
 - JSON: 4
-- TypeScript: 3
 - JavaScript: 2
 - CSS: 1
 
@@ -24,3 +24,16 @@ _Deterministic structural map. Regenerate with the `map` tool or "Antimatter: Ma
 ### `src/app` — 3 files
 - symbols: metadata (const)
 - files: globals.css, layout.tsx, page.tsx
+
+### `src/app/collection` — 1 file
+- files: page.tsx
+
+### `src/app/collection/[slug]` — 1 file
+- files: page.tsx
+
+### `src/app/configure` — 1 file
+- files: page.tsx
+
+### `src/app/lib` — 1 file
+- symbols: WatchComplication (interface), Watch (interface), watches (const), caseOptions (const), strapOptions (const), dialOptions (const), basePrice (const)
+- files: watches.ts
