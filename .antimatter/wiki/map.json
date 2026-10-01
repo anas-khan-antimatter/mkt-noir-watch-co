@@ -1,15 +1,15 @@
 {
-  "root": "/tmp/am-ws/c-1790732967552-zqjar",
-  "name": "c-1790732967552-zqjar",
-  "generatedAt": "2026-09-30T16:43:26.928Z",
-  "fileCount": 17,
-  "dirCount": 3,
+  "root": "/tmp/am-ws/c-1790870817744-tny57",
+  "name": "c-1790870817744-tny57",
+  "generatedAt": "2026-10-01T16:15:45.172Z",
+  "fileCount": 25,
+  "dirCount": 10,
   "languages": {
     "Markdown": 6,
-    "JSON": 4,
+    "JSON": 5,
     "JavaScript": 2,
-    "CSS": 1,
-    "TypeScript": 3
+    "TypeScript": 10,
+    "CSS": 1
   },
   "keyFiles": [
     "package.json",
@@ -32,7 +32,7 @@
     },
     {
       "dir": "(root)",
-      "fileCount": 8,
+      "fileCount": 9,
       "files": [
         ".gitignore",
         "next.config.mjs",
@@ -41,7 +41,8 @@
         "postcss.config.mjs",
         "README.md",
         "tailwind.config.ts",
-        "tsconfig.json"
+        "tsconfig.json",
+        "vercel.json"
       ],
       "symbols": []
     },
@@ -59,6 +60,100 @@
           "kind": "const"
         }
       ]
+    },
+    {
+      "dir": "src/app/api/waitlist",
+      "fileCount": 1,
+      "files": [
+        "route.ts"
+      ],
+      "symbols": [
+        {
+          "name": "GET",
+          "kind": "fn"
+        },
+        {
+          "name": "POST",
+          "kind": "fn"
+        }
+      ]
+    },
+    {
+      "dir": "src/app/collection",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/collection/[slug]",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/configure",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/lib",
+      "fileCount": 1,
+      "files": [
+        "watches.ts"
+      ],
+      "symbols": [
+        {
+          "name": "WatchComplication",
+          "kind": "interface"
+        },
+        {
+          "name": "Watch",
+          "kind": "interface"
+        },
+        {
+          "name": "watches",
+          "kind": "const"
+        },
+        {
+          "name": "caseOptions",
+          "kind": "const"
+        },
+        {
+          "name": "strapOptions",
+          "kind": "const"
+        },
+        {
+          "name": "dialOptions",
+          "kind": "const"
+        },
+        {
+          "name": "basePrice",
+          "kind": "const"
+        }
+      ]
+    },
+    {
+      "dir": "src/app/size-guide",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/waitlist",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
     }
   ]
 }
