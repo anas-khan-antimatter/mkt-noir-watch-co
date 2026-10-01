@@ -1,10 +1,10 @@
-# Workspace Map — c-1790874028472-mkkgg
-_Generated 2026-10-01 · 27 files · 12 directories_  
+# Workspace Map — c-1790877733215-7ibjb
+_Generated 2026-10-01 · 28 files · 13 directories_  
 _Deterministic structural map. Regenerate with the `map` tool or "Antimatter: Map Workspace". Do not hand-edit._
 
 ## Languages
 - TypeScript: 11
-- JSON: 6
+- JSON: 7
 - Markdown: 6
 - JavaScript: 2
 - CSS: 1
@@ -15,6 +15,9 @@ _Deterministic structural map. Regenerate with the `map` tool or "Antimatter: Ma
 - `tsconfig.json`
 
 ## Directories
+### `.antimatter` — 1 file
+- files: graph.json
+
 ### `.antimatter/lanes` — 1 file
 - files: ship.json
 

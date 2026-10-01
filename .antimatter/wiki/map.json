@@ -1,11 +1,11 @@
 {
-  "root": "/tmp/am-ws/c-1790874028472-mkkgg",
-  "name": "c-1790874028472-mkkgg",
-  "generatedAt": "2026-10-01T17:24:01.274Z",
-  "fileCount": 27,
-  "dirCount": 12,
+  "root": "/tmp/am-ws/c-1790877733215-7ibjb",
+  "name": "c-1790877733215-7ibjb",
+  "generatedAt": "2026-10-01T18:11:33.736Z",
+  "fileCount": 28,
+  "dirCount": 13,
   "languages": {
-    "JSON": 6,
+    "JSON": 7,
     "Markdown": 6,
     "JavaScript": 2,
     "TypeScript": 11,
@@ -17,6 +17,14 @@
     "tsconfig.json"
   ],
   "directories": [
+    {
+      "dir": ".antimatter",
+      "fileCount": 1,
+      "files": [
+        "graph.json"
+      ],
+      "symbols": []
+    },
     {
       "dir": ".antimatter/lanes",
       "fileCount": 1,
