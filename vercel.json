@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "public": true,
+  "regions": ["iad1"],
+  "cleanUrls": true
+}
