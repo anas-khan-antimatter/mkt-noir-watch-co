@@ -1,5 +1,5 @@
 "use client";
-
+import { useState } from "react";
 import {
   caseOptions,
   strapOptions,
@@ -9,21 +9,28 @@ import {
   computeSku,
 } from "../data/configurator";
 
+const groupMap: Record<string, typeof caseOptions> = {
+  case: caseOptions,
+  strap: strapOptions,
+  dial: dialOptions,
+};
+
 export default function ConfigurePage() {
-  const [caseId, setCaseId] = React.useState(caseOptions.options[0].id);
-  const [strapId, setStrapId] = React.useState(strapOptions.options[0].id);
-  const [dialId, setDialId] = React.useState(dialOptions.options[0].id);
-  const [activeGroup, setActiveGroup] = React.useState("case");
+  const [caseId, setCaseId] = useState(caseOptions.options[0].id);
+  const [strapId, setStrapId] = useState(strapOptions.options[0].id);
+  const [dialId, setDialId] = useState(dialOptions.options[0].id);
+  const [activeGroup, setActiveGroup] = useState("case");
 
   const sel = { caseId, strapId, dialId };
   const price = computePrice(sel);
   const sku = computeSku(sel);
 
-  const groupMap = { case: caseOptions, strap: strapOptions, dial: dialOptions };
   const currentGroup = groupMap[activeGroup];
   const currentOpts = currentGroup.options;
   const currentSel =
     activeGroup === "case" ? caseId : activeGroup === "strap" ? strapId : dialId;
+
+  const groupLabels: Record<string, string> = { case: "Case Material", strap: "Strap / Bracelet", dial: "Dial" };
 
   function getLabel(groupId: string, optId: string) {
     const grp = groupMap[groupId];
@@ -58,7 +65,7 @@ export default function ConfigurePage() {
                     : "text-noir-500"
                 }`}
               >
-                {groupMap[g].label}
+                {groupLabels[g]}
               </button>
             ))}
           </div>
