@@ -89,7 +89,7 @@ export default function Home() {
 
             <div className="space-y-6">
               {[
-                { slug: "l-ombre", name: "L&apos;Ombre", subtitle: "The Shadow", desc: "Skeletonized. 22K gold winding rotor. Hand-bevelled bridges." },
+                { slug: "l-ombre", name: "L&apos;Ombre", subtitle: "The Shadow", desc: "Skeletonized. 22K winding rotor. Hand-bevelled bridges." },
                 { slug: "minuit", name: "Minuit", subtitle: "Midnight", desc: "Forged carbon case. Super-LumiNova. 70-hour reserve." },
                 { slug: "heritage", name: "H&eacute;ritage", subtitle: "Heritage", desc: "Guilloch&eacute; dial. Blued steel hands. Exhibition caseback." },
               ].map((watch) => (
